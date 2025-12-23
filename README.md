@@ -302,6 +302,6 @@
 <div align="center">
   <p>
     <small>✨ "I'm excited to put my knowledge to use through practical projects and internships, and I'm passionate about always broadening my skill set."</small><br/>
-    <small>Last updated: <script>document.write(new Date().toLocaleDateString())</script></small>
+    <small>Last updated: December 23, 2025
   </p>
 </div>
