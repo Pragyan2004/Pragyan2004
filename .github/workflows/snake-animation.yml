@@ -1,44 +1,164 @@
-name: Generate Snake Animation
+name: 🐍 Generate Animated Snake
 
 on:
-  # Run automatically every 24 hours
+  # Run automatically every 12 hours for more frequent updates
   schedule:
-    - cron: "0 */24 * * *"
+    - cron: "0 */12 * * *"
   
-  # Allow manual triggering
+  # Allow manual triggering with different themes
   workflow_dispatch:
+    inputs:
+      theme:
+        description: 'Choose snake theme'
+        required: true
+        default: 'github'
+        type: choice
+        options:
+          - github
+          - rainbow
+          - sunset
+          - ocean
+          - neon
+          - monochrome
+          - custom_purple
   
-  # Run on every push to main/master
+  # Run on every push
   push:
-    branches:
-      - main
-      - master
+    branches: [main, master]
+    paths:
+      - '.github/workflows/snake-animation.yml'
+      - 'README.md'
 
 jobs:
-  generate:
+  generate-multiple-themes:
+    permissions: 
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    strategy:
+      matrix:
+        theme: ['github', 'rainbow', 'sunset', 'ocean', 'neon', 'monochrome', 'custom_purple']
+    
+    steps:
+      # Step 1: Checkout repository
+      - name: 🚀 Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      
+      # Step 2: Generate multiple snake animations with different themes
+      - name: 🎨 Generate Snake Animations
+        id: snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: Pragyan2004
+          outputs: |
+            dist/github-snake-${{ matrix.theme }}.svg?color_snake=${{ matrix.theme == 'rainbow' && '#FF6B6B,#4ECDC4,#45B7D1,#96CEB4,#FFEAA7,#DDA0DD,#98D8C8' : matrix.theme == 'sunset' && '#FF9A8B,#FF6B6B,#FF8E53,#FFCC00,#4A90E2' : matrix.theme == 'ocean' && '#1A2980,#26D0CE,#00B4DB,#0083B0,#667EEA' : matrix.theme == 'neon' && '#00FF87,#00FFE0,#FF00FF,#FF6B6B,#F9F871' : matrix.theme == 'monochrome' && '#2D3436,#636E72,#B2BEC3,#DFE6E9' : matrix.theme == 'custom_purple' && '#6D28D9,#8B5CF6,#A78BFA,#C4B5FD,#DDD6FE' : '#159957,#155799' }}
+            dist/github-snake-${{ matrix.theme }}-dark.svg?color_snake=${{ matrix.theme == 'rainbow' && '#FF6B6B,#4ECDC4,#45B7D1,#96CEB4,#FFEAA7,#DDA0DD,#98D8C8' : matrix.theme == 'sunset' && '#FF9A8B,#FF6B6B,#FF8E53,#FFCC00,#4A90E2' : matrix.theme == 'ocean' && '#1A2980,#26D0CE,#00B4DB,#0083B0,#667EEA' : matrix.theme == 'neon' && '#00FF87,#00FFE0,#FF00FF,#FF6B6B,#F9F871' : matrix.theme == 'monochrome' && '#2D3436,#636E72,#B2BEC3,#DFE6E9' : matrix.theme == 'custom_purple' && '#6D28D9,#8B5CF6,#A78BFA,#C4B5FD,#DDD6FE' : '#159957,#155799' }}&palette=github-dark
+      
+      # Step 3: Create stats images
+      - name: 📊 Generate GitHub Stats
+        uses: anmol098/waka-readme-stats@master
+        with:
+          SHOW_PROFILE_VIEWS: true
+          SHOW_LINES_OF_CODE: true
+          SHOW_COMMIT: true
+          SHOW_DAYS_OF_WEEK: true
+          SHOW_LANGUAGE: true
+          SHOW_OS: true
+          SHOW_PROJECTS: true
+          SHOW_TIMEZONE: true
+          SHOW_EDITORS: true
+          SHOW_LOC_CHART: true
+          COMMIT_BLOCK: "░▒▓█"
+          LANGUAGE_COUNT: 10
+          SHOW_SHORT_INFO: true
+      
+      # Step 4: Generate contribution graph
+      - name: 📈 Generate Contribution Graph
+        run: |
+          mkdir -p dist/charts
+          curl -s "https://github-contributions.vercel.app/api/v1/Pragyan2004?no-total=true&no-legend=true&format=svg" > dist/charts/contributions-light.svg
+          curl -s "https://github-contributions.vercel.app/api/v1/Pragyan2004?no-total=true&no-legend=true&format=svg&theme=dark" > dist/charts/contributions-dark.svg
+      
+      # Step 5: Generate coding activity
+      - name: ⚡ Generate Coding Activity
+        run: |
+          curl -s "https://wakatime.com/share/@Pragyan2004/62a3c9b8-8b1a-4b5f-9c3d-7e6f5a4b3c2a.svg" > dist/charts/wakatime-light.svg || true
+          curl -s "https://wakatime.com/share/@Pragyan2004/62a3c9b8-8b1a-4b5f-9c3d-7e6f5a4b3c2a.svg?theme=dark" > dist/charts/wakatime-dark.svg || true
+      
+      # Step 6: Generate repository stats
+      - name: 📁 Generate Repo Stats
+        run: |
+          mkdir -p dist/repos
+          # Get repository information
+          curl -s "https://api.github.com/users/Pragyan2004/repos?per_page=100" > repos.json
+          
+          # Create a summary file
+          echo "# 📊 Repository Statistics" > dist/repos/summary.md
+          echo "" >> dist/repos/summary.md
+          echo "Last updated: $(date)" >> dist/repos/summary.md
+          echo "" >> dist/repos/summary.md
+      
+      # Step 7: Deploy all assets
+      - name: 🚀 Deploy All Assets
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: true
+          commit_message: "🐍 Update snake animations and stats - $(date)"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      # Step 8: Update README with theme selector
+      - name: 📝 Update README with Theme Info
+        if: ${{ matrix.theme == 'custom_purple' }}
+        run: |
+          # Create theme info file
+          echo "# 🎨 Available Snake Themes" > dist/themes.md
+          echo "" >> dist/themes.md
+          echo "## Current Theme: ${{ matrix.theme }}" >> dist/themes.md
+          echo "" >> dist/themes.md
+          echo "### Available Themes:" >> dist/themes.md
+          echo "- 🐍 **GitHub** (Default green)" >> dist/themes.md
+          echo "- 🌈 **Rainbow** (Multi-color gradient)" >> dist/themes.md
+          echo "- 🌅 **Sunset** (Warm orange/pink tones)" >> dist/themes.md
+          echo "- 🌊 **Ocean** (Blue gradient)" >> dist/themes.md
+          echo "- 🎆 **Neon** (Bright neon colors)" >> dist/themes.md
+          echo "- ⚫ **Monochrome** (Black/white/gray)" >> dist/themes.md
+          echo "- 💜 **Custom Purple** (Purple gradient - 6D28D9 to DDD6FE)" >> dist/themes.md
+          echo "" >> dist/themes.md
+          echo "### How to Change Theme:" >> dist/themes.md
+          echo "1. Go to Actions → '🐍 Generate Animated Snake'" >> dist/themes.md
+          echo "2. Click 'Run workflow'" >> dist/themes.md
+          echo "3. Select your preferred theme" >> dist/themes.md
+          echo "4. Wait for workflow to complete" >> dist/themes.md
+  
+  # Additional job for generating special animations
+  generate-special:
+    if: github.event_name == 'workflow_dispatch'
+    needs: generate-multiple-themes
     permissions: 
       contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 5
     
     steps:
-      # Step 1: Generate snake animation
-      - name: Checkout repository
-        uses: actions/checkout@v3
-      
-      - name: Generate snake animation
+      - name: 🎭 Generate Special Animations
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: Pragyan2004
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/special/gradient-snake.svg?color_snake=6D28D9&color_dots=8B5CF6,A78BFA,C4B5FD&animation=true
+            dist/special/pulse-snake.svg?color_snake=FF6B6B&color_dots=FFE66D,4ECDC4&animation=pulse
+            dist/special/spiral-snake.svg?color_snake=00FF87&color_dots=00FFE0,FF00FF&animation=spiral
       
-      # Step 2: Deploy to output branch
-      - name: Deploy snake to output branch
+      - name: 🚀 Deploy Special Animations
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
+          commit_message: "🎭 Add special snake animations"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
