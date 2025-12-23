@@ -358,9 +358,18 @@
 </div>
 
 ---
-<!-- Quote -->
+<!-- Quote Section -->
 <div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&quote=I'm+excited+to+put+my+knowledge+to+use+through+practical+projects+and+internships,+and+I'm+passionate+about+always+broadening+my+skill+set.&author=Pragyan+Kumar+Prasad" alt="Quote" width="80%"/>
+  <!--STARTS_HERE_QUOTE_README-->
+  <p>✨ "Your new quote will appear here automatically!"</p>
+  <!--ENDS_HERE_QUOTE_README-->
+</div>
+<div align="center">
+  <!-- For a simple random quote (no author) -->
+  <img src="https://github-readme-quotes-bay.vercel.app/quote?theme=radical" alt="Daily Quote" width="80%"/>
+  
+  <!-- For a quote with author and animation -->
+  <img src="https://github-readme-quotes.vercel.app/quote?theme=onedark&layout=socrates&animation=default" alt="Daily Quote" width="80%"/>
 </div>
 
 <div align="center" style="margin-top: 30px;">
