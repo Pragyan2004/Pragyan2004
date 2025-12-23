@@ -14,59 +14,52 @@
     <img src="https://img.shields.io/badge/Status-Coding%20with%20☕-blue?style=for-the-badge&labelColor=black&color=0a192f" alt="status" />
     <img src="https://komarev.com/ghpvc/?username=Pragyan2004&label=Profile%20Views&color=6D28D9&style=for-the-badge" alt="Profile views" />
     <img src="https://img.shields.io/github/followers/Pragyan2004?label=Follow&style=for-the-badge&color=6D28D9&labelColor=black" alt="GitHub followers" />
-    <img src="https://wakatime.com/badge/user/your-wakatime-id.svg?style=for-the-badge" alt="WakaTime" />
   </p>
 </div>
 
----
 <!-- Animated Divider -->
 <div align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="divider" width="100%"/>
 </div>
 
-<!-- Snake Animation Section -->
-## 🐍 **Contribution Snake**
+<!-- Dynamic Snake Animation Section -->
+## 🐍 **Live Contribution Snake**
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Pragyan2004/Pragyan2004/output/github-snake-custom_purple-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Pragyan2004/Pragyan2004/output/github-snake-custom_purple.svg">
-    <img alt="github snake animation" src="https://raw.githubusercontent.com/Pragyan2004/Pragyan2004/output/github-snake-custom_purple.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Pragyan2004/Pragyan2004/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Pragyan2004/Pragyan2004/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Pragyan2004/Pragyan2004/output/github-contribution-grid-snake.svg" width="100%">
   </picture>
 </div>
 
 <p align="center">
-  <em>This snake visualizes my GitHub contributions! Updates every 12 hours with <b>Purple Theme 💜</b></em><br/>
-  <a href="https://github.com/Pragyan2004/Pragyan2004/actions/workflows/snake-animation.yml"><small>🎨 Click to change theme</small></a>
+  <em>This snake visualizes my GitHub contributions! Updates automatically every 12 hours.</em><br/>
+  <small>🎨 <a href="https://github.com/Pragyan2004/Pragyan2004/actions/workflows/generate-snake.yml">Click to regenerate with different theme</a></small>
 </p>
 
----
-<!-- GitHub Stats Section with Animation -->
+<!-- GitHub Stats Section -->
 ## 📊 **My GitHub Stats**
 
 <div align="center">
   <a href="https://github.com/Pragyan2004">
-    <!-- Stat Cards with hover effect -->
     <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Pragyan2004&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=6D28D9&icon_color=6D28D9" alt="Pragyan's GitHub Stats" />
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pragyan2004&layout=compact&theme=radical&hide_border=true&langs_count=8&bg_color=0d1117&title_color=6D28D9&exclude_repo=github-readme-stats" alt="Top Languages" />
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pragyan2004&layout=compact&theme=radical&hide_border=true&langs_count=8&bg_color=0d1117&title_color=6D28D9" alt="Top Languages" />
   </a>
   <br/>
-  <!-- GitHub Streak Stats -->
   <a href="https://github.com/Pragyan2004">
     <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=Pragyan2004&theme=radical&hide_border=true&background=0d1117&stroke=6D28D9&ring=6D28D9&fire=6D28D9&currStreakLabel=6D28D9" alt="GitHub Streak" />
   </a>
 </div>
 
-<!-- Animated Trophy Case -->
+<!-- GitHub Trophies -->
 <div align="center">
   <a href="https://github.com/Pragyan2004">
     <img src="https://github-profile-trophy.vercel.app/?username=Pragyan2004&theme=radical&no-frame=true&column=7&margin-w=15&margin-h=15&bg_color=0d1117&title_color=6D28D9" alt="GitHub Trophies" />
   </a>
 </div>
 
----
-## 🎯 **Quick Overview**
-
+<!-- Quick Overview -->
 <div align="center">
   <table>
     <tr>
@@ -86,10 +79,12 @@
   </table>
 </div>
 
----
+<!-- Tech Stack Section -->
 ## 🛠️ **Tech Stack & Expertise**
 
-### **💻 Programming Languages**
+<details>
+<summary><b>💻 Programming Languages</b></summary>
+<br/>
 <div align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge" alt="Python" />
   <img src="https://img.shields.io/badge/Java-ED8B00?logo=java&logoColor=white&style=for-the-badge" alt="Java" />
@@ -101,10 +96,10 @@
   <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge" alt="HTML5" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=for-the-badge" alt="CSS3" />
 </div>
+</details>
 
-### **🤖 AI/ML & Data Science**
 <details>
-<summary><b>Click to expand AI/ML Stack</b></summary>
+<summary><b>🤖 AI/ML & Data Science</b></summary>
 <br/>
 <div align="center">
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white&style=for-the-badge" alt="TensorFlow" />
@@ -119,9 +114,8 @@
 </div>
 </details>
 
-### **🌐 Web Development**
 <details>
-<summary><b>Click to expand Web Stack</b></summary>
+<summary><b>🌐 Web Development</b></summary>
 <br/>
 <div align="center">
   <img src="https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB&style=for-the-badge" alt="React" />
@@ -134,23 +128,13 @@
 </div>
 </details>
 
-### **🗄️ Databases & Cloud**
 <details>
-<summary><b>Click to expand Database Stack</b></summary>
+<summary><b>🗄️ Databases & Tools</b></summary>
 <br/>
 <div align="center">
   <img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white&style=for-the-badge" alt="MongoDB" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white&style=for-the-badge" alt="MySQL" />
   <img src="https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black&style=for-the-badge" alt="Firebase" />
-  <img src="https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white&style=for-the-badge" alt="SQLite" />
-</div>
-</details>
-
-### **🔧 Tools & Platforms**
-<details>
-<summary><b>Click to expand Tools</b></summary>
-<br/>
-<div align="center">
   <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=for-the-badge" alt="Git" />
   <img src="https://img.shields.io/badge/GitHub-100000?logo=github&logoColor=white&style=for-the-badge" alt="GitHub" />
   <img src="https://img.shields.io/badge/VS_Code-007ACC?logo=visual-studio-code&logoColor=white&style=for-the-badge" alt="VS Code" />
@@ -159,23 +143,12 @@
 </div>
 </details>
 
-### **📱 Mobile Development**
-<details>
-<summary><b>Click to expand Mobile Stack</b></summary>
-<br/>
-<div align="center">
-  <img src="https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white&style=for-the-badge" alt="Flutter" />
-  <img src="https://img.shields.io/badge/Android_Studio-3DDC84?logo=android-studio&logoColor=white&style=for-the-badge" alt="Android Studio" />
-</div>
-</details>
-
----
+<!-- Featured Projects -->
 ## 🚀 **Featured Projects**
 
 <div align="center">
   <table>
     <tr>
-      <!-- Project 1 -->
       <td width="33%">
         <h3 align="center">🥗 NutriNavigator</h3>
         <div align="center">
@@ -225,9 +198,7 @@
   </a>
 </div>
 
----
-## 📚 **Research & Publication**
-
+<!-- Research Publication -->
 <div align="center" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 10px; margin: 20px 0;">
   <h3>🎯 Crop Selection using Machine Learning Techniques</h3>
   <p><strong>Published in IET Journal • July 2025</strong></p>
@@ -252,9 +223,7 @@
   </div>
 </div>
 
----
-## 💼 **Experience Timeline**
-
+<!-- Experience Timeline -->
 <div align="center">
   <table width="100%">
     <tr>
@@ -278,50 +247,21 @@
   </table>
 </div>
 
----
-## 🏆 **Certifications & Achievements**
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" width="25%">
-        <h4>🎓 IoT Certification</h4>
-        <p>NPTEL Elite Certified</p>
-      </td>
-      <td align="center" width="25%">
-        <h4>🌐 Networking</h4>
-        <p>Cisco Fundamentals</p>
-      </td>
-      <td align="center" width="25%">
-        <h4>🤖 ML Certification</h4>
-        <p>Udemy - Python ML</p>
-      </td>
-      <td align="center" width="25%">
-        <h4>📊 Tableau Workshop</h4>
-        <p>Parul University</p>
-      </td>
-    </tr>
-  </table>
-</div>
-
----
-<!-- Activity Graph -->
-## 📈 **GitHub Activity**
-
+<!-- GitHub Activity Graph -->
 <div align="center">
   <a href="https://github.com/Pragyan2004">
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=Pragyan2004&theme=react-dark&hide_border=true&area=true&bg_color=0d1117&color=6D28D9&line=6D28D9&point=FFFFFF&custom_title=My%20Weekly%20Development%20Activity" alt="Activity Graph" width="90%"/>
   </a>
 </div>
 
----
-## 📊 **Weekly Development Breakdown**
+<!-- Daily Dynamic Quote Section -->
+## 💭 **Daily Inspiration**
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=Pragyan2004&theme=radical&hide_border=true&bg_color=0d1117&title_color=6D28D9&langs_count=8&custom_title=Weekly%20Coding%20Activity" alt="WakaTime Stats" height="200"/>
-</div>
+<!--STARTS_HERE_QUOTE_README-->
+<!-- This section will be automatically updated daily with a new quote -->
+<!--ENDS_HERE_QUOTE_README-->
 
----
+<!-- Connect Section -->
 ## 🤝 **Connect With Me**
 
 <div align="center">
@@ -358,12 +298,10 @@
 </div>
 
 ---
-<!-- Quote Section -->
-<div align="center">
-  <!-- For a simple random quote (no author) -->
-  <img src="https://github-readme-quotes-bay.vercel.app/quote?theme=radical" alt="Daily Quote" width="80%"/>
-  
-  <!-- For a quote with author and animation -->
-  <img src="https://github-readme-quotes.vercel.app/quote?theme=onedark&layout=socrates&animation=default" alt="Daily Quote" width="80%"/>
-</div>
 
+<div align="center">
+  <p>
+    <small>✨ "I'm excited to put my knowledge to use through practical projects and internships, and I'm passionate about always broadening my skill set."</small><br/>
+    <small>Last updated: <script>document.write(new Date().toLocaleDateString())</script></small>
+  </p>
+</div>
