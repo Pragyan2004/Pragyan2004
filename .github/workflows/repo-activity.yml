@@ -1,0 +1,14 @@
+name: Repository Activity Summary
+on:
+  schedule:
+    - cron: '0 3 * * 1'  # Every Monday at 3 AM
+  workflow_dispatch:
+
+jobs:
+  activity-summary:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate weekly activity report
+        run: |
+          echo "Weekly activity summary would be generated here"
+          # You can integrate with GitHub API to generate weekly reports
