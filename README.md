@@ -360,11 +360,6 @@
 ---
 <!-- Quote Section -->
 <div align="center">
-  <!--STARTS_HERE_QUOTE_README-->
-  <p>✨ "Your new quote will appear here automatically!"</p>
-  <!--ENDS_HERE_QUOTE_README-->
-</div>
-<div align="center">
   <!-- For a simple random quote (no author) -->
   <img src="https://github-readme-quotes-bay.vercel.app/quote?theme=radical" alt="Daily Quote" width="80%"/>
   
@@ -372,9 +367,3 @@
   <img src="https://github-readme-quotes.vercel.app/quote?theme=onedark&layout=socrates&animation=default" alt="Daily Quote" width="80%"/>
 </div>
 
-<div align="center" style="margin-top: 30px;">
-  <p>
-    <small>Last Updated: <script>document.write(new Date().toLocaleDateString())</script></small><br/>
-    <small>🐍 Snake updates every 12 hours • ⚡ Stats update daily</small>
-  </p>
-</div>
