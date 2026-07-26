@@ -10,7 +10,7 @@
 # 💫 About Me
 
 <img align="right" height="150" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
-I am an Aspiring Machine Learning Engineer/AI Engineer pursuing B.Tech in Computer Science.  
+I am an Aspiring Machine Learning Engineer/AI Engineer and Data Analytics pursuing B.Tech in Computer Science.  
 
 💡 Passionate about building **AI-driven real-world applications**  
 🧠 Skilled in **ML, Computer Vision, Deep Learning & Full-Stack AI**  
