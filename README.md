@@ -45,8 +45,6 @@ AI Engineer at **Kombee Technologies** and B.Tech Computer Science student, buil
 
 ---
 
----
-
 ## 🤝 Let's Collaborate
 
 I'm happy to talk about, or work on:
