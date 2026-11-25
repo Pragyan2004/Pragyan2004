@@ -4,6 +4,8 @@
 
 ### I build AI systems that move from research notebooks to real products.
 
+<img src="assets/typing.svg" alt="AI Engineer building agentic systems. Computer vision for healthcare and agriculture. LangGraph, CrewAI, Google ADK, MCP. Tracing LLM apps with Langfuse." width="700" />
+
 <a href="mailto:pragyankumar2004@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Pragyan" /></a>
 <a href="https://github.com/Pragyan2004?tab=repositories"><img src="https://img.shields.io/badge/Repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="All GitHub repositories" /></a>
 <!-- TODO: add these once you have the URLs, then delete this comment
@@ -32,6 +34,41 @@ AI Engineer at **Kombee Technologies** and B.Tech Computer Science student, buil
 - 🔍 **Observability:** tracing and evaluating LLM apps with Langfuse
 - 📄 **Research:** published *Crop Selection using Machine Learning Techniques* (IET, 2025), reporting 99.5% accuracy
 - 🌱 **Learning now:** MLOps (DVC, MLflow, CI/CD), multi-agent systems, system design
+
+---
+
+## 📖 My Journey
+
+<div align="center">
+  <img src="assets/journey.svg" alt="Animated timeline: Data in 2024, Models and Research in 2025, Agents and Production in 2026" width="100%" />
+</div>
+
+---
+
+## 🧭 How I Build
+
+```mermaid
+flowchart LR
+    A([Problem]) --> B[Data and SQL]
+    B --> C[Model or Agents]
+    C --> D[Trace with Langfuse<br/>Test with Pytest]
+    D --> E[Flask API or Streamlit]
+    E --> F([Deploy on Render])
+    style A fill:#6D28D9,stroke:#6D28D9,color:#fff
+    style C fill:#0EA5E9,stroke:#0EA5E9,color:#fff
+    style F fill:#16A34A,stroke:#16A34A,color:#fff
+```
+
+---
+
+## 🤝 Let's Collaborate
+
+I'm happy to talk about, or work on:
+
+- 🤖 **Agentic AI apps:** multi-agent workflows with LangGraph, CrewAI, Google ADK and MCP
+- 🩺 **Computer vision and ML for healthcare and agriculture**
+- 🔍 **LLM observability and evaluation** with Langfuse
+- ⚙️ **MLOps:** data versioning (DVC), experiment tracking (MLflow) and CI with GitHub Actions
 
 ---
 
@@ -195,6 +232,10 @@ AI Engineer at **Kombee Technologies** and B.Tech Computer Science student, buil
 <a href="https://github.com/Pragyan2004">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pragyan2004&layout=compact&theme=radical&hide_border=true&langs_count=6&hide=html,css" alt="Most used languages on GitHub" height="165" />
 </a>
+
+<img src="https://streak-stats.demolab.com/?user=Pragyan2004&theme=radical&hide_border=true" alt="GitHub contribution streak for Pragyan2004" height="165" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Pragyan2004&theme=react-dark&hide_border=true&area=true" alt="GitHub contribution activity graph for Pragyan2004" width="100%" />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Pragyan2004/Pragyan2004/output/github-contribution-grid-snake-dark.svg">
