@@ -45,20 +45,6 @@ AI Engineer at **Kombee Technologies** and B.Tech Computer Science student, buil
 
 ---
 
-## 🧭 How I Build
-
-```mermaid
-flowchart LR
-    A([Problem]) --> B[Data and SQL]
-    B --> C[Model or Agents]
-    C --> D[Trace with Langfuse<br/>Test with Pytest]
-    D --> E[Flask API or Streamlit]
-    E --> F([Deploy on Render])
-    style A fill:#6D28D9,stroke:#6D28D9,color:#fff
-    style C fill:#0EA5E9,stroke:#0EA5E9,color:#fff
-    style F fill:#16A34A,stroke:#16A34A,color:#fff
-```
-
 ---
 
 ## 🤝 Let's Collaborate
