@@ -19,7 +19,7 @@
 
 <img src="https://img.shields.io/badge/%F0%9F%93%8D_India-0F172A?style=flat-square" alt="Location: India" />
 <img src="https://img.shields.io/badge/%F0%9F%9F%A2_Open_to_AI%2FML_roles-16A34A?style=flat-square" alt="Open to AI and ML opportunities" />
-<img src="https://img.shields.io/badge/%F0%9F%8F%A2_AI_Engineer_@_Kombee-6D28D9?style=flat-square" alt="AI Engineer at Kombee Technologies" />
+<img src="https://img.shields.io/badge/%F0%9F%8F%A2_AI_Engineer-6D28D9?style=flat-square" alt="AI Engineer" />
 <img src="https://img.shields.io/badge/%F0%9F%93%84_IET_2025-0EA5E9?style=flat-square" alt="Published in IET, 2025" />
 
 </div>
@@ -28,9 +28,9 @@
 
 ## 👋 About
 
-AI Engineer at **Kombee Technologies** and B.Tech Computer Science student, building end-to-end AI solutions: data → training/agents → deployment (Flask, APIs). I'm most interested in **agentic AI**, **healthcare AI**, **smart detection systems** and **recommendation engines**.
+AI Engineer and B.Tech Computer Science student, building end-to-end AI solutions: data → training/agents → deployment (Flask, APIs). I'm most interested in **agentic AI**, **healthcare AI**, **smart detection systems** and **recommendation engines**.
 
-- 🧠 **Focus:** agentic AI (Google ADK, CrewAI, LangGraph), computer vision, deep learning, LLM applications
+- 🧠 **Focus:** agentic AI (Google ADK, CrewAI, LangGraph), prompt engineering, computer vision, deep learning, LLM applications
 - 🔍 **Observability:** tracing and evaluating LLM apps with Langfuse
 - 📄 **Research:** published *Crop Selection using Machine Learning Techniques* (IET, 2025), reporting 99.5% accuracy
 - 🌱 **Learning now:** MLOps (DVC, MLflow, CI/CD), multi-agent systems, system design
@@ -76,6 +76,7 @@ I'm happy to talk about, or work on:
 
 <p align="center">
   <img src="https://img.shields.io/badge/Agentic_AI-6D28D9?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxjaXJjbGUgY3g9IjYiIGN5PSI2IiByPSIyIi8%2BPGNpcmNsZSBjeD0iMTgiIGN5PSI2IiByPSIyIi8%2BPGNpcmNsZSBjeD0iMTIiIGN5PSIxOCIgcj0iMiIvPjxwYXRoIGQ9Ik04IDZoOE03IDhsNCA4TTE3IDhsLTQgOCIvPjwvc3ZnPg%3D%3D" alt="Agentic AI" />
+  <img src="https://img.shields.io/badge/Prompt_Engineering-0F766E?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPjxwYXRoIGQ9Ik00IDdsNSA1LTUgNU0xMiAxOGg4Ii8%2BPC9zdmc%2B" alt="Prompt Engineering" />
   <img src="https://img.shields.io/badge/Google_ADK-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google ADK" />
   <img src="https://img.shields.io/badge/CrewAI-FF5A50?style=for-the-badge&logo=crewai&logoColor=white" alt="CrewAI" />
   <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain" />
